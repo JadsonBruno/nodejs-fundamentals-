@@ -1,5 +1,12 @@
-import { uuid } from 'uuidv4';
+/**
+ * IMPORTS
+ */
+import {uuid} from 'uuidv4';
 
+
+/**
+ * CODE
+ */
 class Transaction {
   id: string;
 
@@ -17,4 +24,8 @@ class Transaction {
   }
 }
 
+
+/**
+ * EXPORTS
+ */
 export default Transaction;
